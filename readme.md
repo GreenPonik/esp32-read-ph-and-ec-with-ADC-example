@@ -1,15 +1,17 @@
 # IMPORTANT : to make it work, you will need the help of an additionnal ADC converter because the one on the ESP32 isn't accurate enough. Here we used an ADS1115 from Adafruit
 >You can find it here : https://www.adafruit.com/product/1085
 >
->And here is the library you'll need to add to your sketch : https://github.com/adafruit/Adafruit_ADS1X15 
+>And here is the library you'll need to add to your sketch : https://github.com/GreenPonik/Adafruit_ADS1X15 
 
-# example how to use ESP EC read library
+# example how to use ESP EC read and ESP PH read libraries both simultaneous
 >[DFRobot ESP EC BY GREENPONIK](https://github.com/GreenPonik/DFRobot_ESP_EC_BY_GREENPONIK)
 
+>[DFRobot ESP PH WITH ADC BY GREENPONIK](https://github.com/GreenPonik/DFRobot_ESP_PH_WITH_ADC_BY_GREENPONIK)
+
 ## #1 clone the repo
-> git clone https://github.com/GreenPonik/esp32-read-ec-example.git
+> git clone https://github.com/GreenPonik/esp32-read-ph-and-ec-with-ADC-example.git
 > 
-> cd esp32-read-ec-example
+> cd esp32-read-ph-and-ec-with-ADC-example
 
 ## #2 run platformio build and upload on esp32
 > pio run -t upload
