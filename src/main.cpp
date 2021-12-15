@@ -142,6 +142,7 @@ void loop()
 	}
 	if (now - last[3] >= intervals[3]) //5000ms interval
 	{
+		last[3] = now; 
 		if (!calibrationIsRunning)
 		{
 			temperature = getWaterTemperature(); // read your temperature sensor to execute temperature compensation
